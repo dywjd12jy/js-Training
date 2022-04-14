@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>배열에 10 곱해주기 ( 원래의 배열 값을 유지해야함 )</h1>
+</body>
+<script>
+    // let hello =[3,6,7];
+    //         ...
+    // console.log(hello); // [30,60,70]
+
+    // let Hello =[3,6,7];
+    
+    // // function HelloHi(value){
+    // //     return Hello.value*10;
+    // // }
+    // Hello.value*10
+
+    // console.log(Hello);
+
+
+    // let Hello =[3,6,7];
+    // let HelloV = Hello.map;
+    // let HelloVTen = HelloV*10;
+    // Hello = HelloVTen;
+
+    // console.log([Hello]);
+    // function Hello(x){
+    //     return function calc(x) {
+    //         return x * 10
+    //     }
+    // }
+
+
+
+
+    // let Hello =[3,6,7];
+
+    // Hello = Hello.map(x => x*10);
+
+    // console.log(Hello); 
+
+
+    // let hello =[3,6,7];
+
+    // Hello = Hello.map(x,y=> x*1,y*10);
+
+    // HelloMap = Hello.map(x=> x*10);
+    // // console.log(HelloMap); // (3) [30,60,70]
+    // Hello = Hello.splice(3,0,HelloMap); //[]
+
+    // console.log(HelloMap); //
+
+
+    // Hello = Hello.splice( 3,0,map ( x=> x*10 ));
+
+
+    //
+    // helloFr = [[...hello]];
+    // console.log(helloFr);
+
+    // hello1 = hello.map ( x=> x*10 ); 
+    // console.log(hello1);
+
+    // hello = [helloFr]+[hello1]; 
+    // console.log(hello); 
+
+    //
+
+    'use strict';
+    let hello =[3,6,7];
+
+    let hello1 = hello.map ( x=> x*10 ); 
+    console.log(hello1);
+
+    let helloFr = [...hello];
+    console.log(helloFr);
+
+
+    Hello = Hello.map(x,y=> x*1,y*10);
+    console.log(hello); //에러
+
+    hello = [...helloFr,...hello1]; 
+    console.log(hello); 
+
+
+
+    
+    
+
+</script>
+</html>
